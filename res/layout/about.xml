@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/about_TeaAnytime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="top"
+        android:padding="10dp"
+        android:text="@string/about_TeaAnytime"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/about_attribution"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#426388"
+        android:ems="1"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="#000000"
+        android:text="@string/about_attribution"
+        android:textSize="9sp" />
+
+</RelativeLayout>

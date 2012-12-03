@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity names. -->
+    <string name="app_name">TeaAnytime</string>
+    <string name="tea_details">Tea Details</string>
+    <string name="about">About</string>
+
+    <!-- Main activity action bar. -->
+    <string name="Teas">Teas</string>
+    <string name="about_button">About</string>
+    
+    <string name="tea_leaves">Tea Leaves</string>
+    <string name="tea_name">Name of Tea</string>
+    <string name="tea_group">Tea Group</string>
+    <string name="tea_description">Tea Description</string>
+
+    <!-- Leaves used to rate tea. -->
+    <string name="gray_leaf_1">One Leaf</string>
+    <string name="gray_leaf_2">Two Leaves</string>
+    <string name="gray_leaf_3">Three Leaves</string>
+    <string name="gray_leaf_4">Four Leaves</string>
+    <string name="gray_leaf_5">Five Leaves</string>
+
+    <string name="menu_settings">Settings</string>
+
+    <string name="about_TeaAnytime">TeaAnytime offers a variety of organic teas and foods to cafe patrons in the Corpus Christi, Texas, area.  We are located in the Town &amp; Country shopping center near the corner of Robert St. and Alameda.  Our address is:\n\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020TeaAnytime Etc.\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u00204200 S. Alameda Suite C\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Corpus Christi, TX 78412\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020(361) 334&#8211;5015\n\nThanks for your interest!</string>
+    <string name="about_attribution">This app was authored by Charles Read.</string>    
+</resources>

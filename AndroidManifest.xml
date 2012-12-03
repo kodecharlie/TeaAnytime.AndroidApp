@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quisoma.teaanytime"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <!-- Setting the theme to NoTitleBar is a work-around to prevent the -->
+    <!-- app name from briefly appearing at the startup.  We may want to -->
+    <!-- reinstate android:theme="@style/AppTheme" at a later date.      -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.quisoma.teaanytime.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.quisoma.teaanytime.TeaDetailsActivity"
+            android:label="@string/tea_details" >
+		        <meta-data
+		            android:name="android.support.PARENT_ACTIVITY"
+		            android:value="com.quisoma.teaanytime.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.quisoma.teaanytime.AboutActivity"
+            android:label="@string/about" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.quisoma.teaanytime.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
