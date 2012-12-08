@@ -8,7 +8,6 @@ import java.util.List;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,8 +17,6 @@ import android.widget.TextView;
 
 public class TeaArrayAdapter extends ArrayAdapter<Tea> implements Constants
 {
-	private static final String tag = "TeaArrayAdapter";
-
 	private Context context;
 	private List<Tea> teas = new ArrayList<Tea>();
 
@@ -51,12 +48,9 @@ public class TeaArrayAdapter extends ArrayAdapter<Tea> implements Constants
 	{		
 		View row = convertView;
 		if (row == null) {
-			// ROW INFLATION
-			Log.d(tag, "Starting XML Row Inflation ... ");
-			LayoutInflater inflater = (LayoutInflater) this.getContext()
-					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			LayoutInflater inflater = (LayoutInflater)
+				this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			row = inflater.inflate(R.layout.tea_listitem, parent, false);
-			Log.d(tag, "Successfully completed XML Row Inflation!");
 		}
 
 		Tea tea = getItem(position);

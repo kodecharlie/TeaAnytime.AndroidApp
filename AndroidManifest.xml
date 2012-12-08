@@ -19,7 +19,8 @@
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
             android:name="com.quisoma.teaanytime.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,14 +29,16 @@
         </activity>
         <activity
             android:name="com.quisoma.teaanytime.TeaDetailsActivity"
-            android:label="@string/tea_details" >
+            android:label="@string/tea_details"
+            android:screenOrientation="portrait" >
 		        <meta-data
 		            android:name="android.support.PARENT_ACTIVITY"
 		            android:value="com.quisoma.teaanytime.MainActivity" />
         </activity>
         <activity
             android:name="com.quisoma.teaanytime.AboutActivity"
-            android:label="@string/about" >
+            android:label="@string/about"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.quisoma.teaanytime.MainActivity" />
